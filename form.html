@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+
+  <body>
+    <form>
+      <h2>Registration Form</h2>
+      <fieldset>
+        <legend>Login Info.</legend>
+        <label for="email">Email</label><br />
+        <input type="email" name="email" id="email" /><br />
+        <label for="password">Password</label><br />
+        <input type="password" name="password" id="password" /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Personal Info.</legend>
+        <label for="name">Name</label><br />
+        <input type="Name" name="Name" id="Name" /><br />
+
+        <label for="Birthdate">Birthdate</label><br />
+        <input type="date" name="Birthdate" id="Birthdate" /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Terms & Conditions</legend>
+        <p>Do you want to receive updates by mail?</p>
+        <label for="updates-yes">Yes</label>
+        <input type="radio" name="updates" id="updates-yes" value="Yes" />
+        <label for="updates-no">No</label>
+        <input type="radio" name="updates" id="updates-no" values="No" /><br />
+
+        <input type="checkbox" name="checkbox" id="checkbox" />
+        <label for="checkbox">I accept all the terms & conditions.</label>
+      </fieldset>
+      <br />
+      <input type="submit" value="Submit" /><br />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
